@@ -1,6 +1,6 @@
 # META 1m OHLCV US stocks Historical Data — Free Sample
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE) [![Dataset rows](https://img.shields.io/badge/full_dataset-1_109_222_rows-blue)](https://getdata.finance/datasets/meta) [![Updated](https://img.shields.io/badge/weekly_update-every_Saturday_8am_UTC-green)](https://getdata.finance) [![Full data on getdata.finance](https://img.shields.io/badge/download-getdata.finance-orange)](https://getdata.finance/datasets/meta)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE) [![Dataset rows](https://img.shields.io/badge/full_dataset-1_110_391_rows-blue)](https://getdata.finance/datasets/meta) [![Updated](https://img.shields.io/badge/weekly_update-every_Saturday_8am_UTC-green)](https://getdata.finance) [![Full data on getdata.finance](https://img.shields.io/badge/download-getdata.finance-orange)](https://getdata.finance/datasets/meta)
 
 ### -> [**Download the full META dataset on getdata.finance**](https://getdata.finance/datasets/meta)
 
@@ -23,11 +23,11 @@
 
 - **Ultra high-quality 1m OHLCV** for **Meta Platforms** (US stocks)
 - **Clean CSV schema** — `datetime, open, high, low, close, volume` (no gaps in formatting)
-- **Free evaluation sample** on GitHub (`1m`) · **11 timeframes** on [getdata.finance](https://getdata.finance/datasets/meta) · **1,109,222** `1m` rows in the full archive
+- **Free evaluation sample** on GitHub (`1m`) · **11 timeframes** on [getdata.finance](https://getdata.finance/datasets/meta) · **1,110,391** `1m` rows in the full archive
 - Built for **backtesting**, **algorithmic trading** and **quantitative finance** workflows
 - **Weekly refresh** — [getdata.finance](https://getdata.finance) every **Saturday, 8am UTC+0**; GitHub `1m` sample updated in sync
 
-> **Sample on GitHub** · `META_1m.csv` (55,440 rows, `2026-02-06` -> `2026-09-01`, 5.48 MB). **Full archive on [getdata.finance](https://getdata.finance/datasets/meta)** — **1,109,222** `1m` rows (full `1m`: 636,459), **11 timeframes**, `2012-05-18` -> `2026-09-01`.
+> **Sample on GitHub** · `META_1m.csv` (55,440 rows, `2026-02-11` -> `2026-09-04`, 5.22 MB). **Full archive on [getdata.finance](https://getdata.finance/datasets/meta)** — **1,110,391** `1m` rows (full `1m`: 636,459), **11 timeframes**, `2012-05-18` -> `2026-09-04`.
 
 ## Download sample
 
@@ -45,9 +45,9 @@ Full archive & live chart on getdata.finance: **[https://getdata.finance/dataset
 |---|--:|---|
 | Instrument | Meta Platforms · US stocks | Meta Platforms · US stocks |
 | Timeframes | `1m` (sample) | **11** — 1m · 3m · 5m · 15m · 30m · 1H · 4H · 12H · 1D · 3D · 1W |
-| 1m rows | 55,440 | **1,109,222** |
-| Size | 5.48 MB | full ZIP on [getdata.finance](https://getdata.finance/datasets/meta) |
-| Period | `2026-02-06` -> `2026-09-01` | `2012-05-18` -> `2026-09-01` |
+| 1m rows | 55,440 | **1,110,391** |
+| Size | 5.22 MB | full ZIP on [getdata.finance](https://getdata.finance/datasets/meta) |
+| Period | `2026-02-11` -> `2026-09-04` | `2012-05-18` -> `2026-09-04` |
 | File | `META_1m.csv` | ZIP on [getdata.finance](https://getdata.finance/datasets/meta) |
 | Coverage report | — | [META coverage](https://getdata.finance/coverage/meta) |
 | Updates | Weekly (Saturday, 8am UTC+0) — GitHub sample | Weekly (Saturday, 8am UTC+0) — all timeframes |
@@ -75,21 +75,21 @@ First and latest rows from the GitHub sample **`META_1m.csv`**:
 
 | datetime | open | high | low | close | volume |
 | --- | --- | --- | --- | --- | --- |
-| 2026-02-06T20:00:00+00:00 | 650.98 | 650.99 | 650.41 | 650.63 | 122 |
-| 2026-02-06T20:01:00+00:00 | 650.63 | 651.22 | 650.61 | 650.75 | 74 |
-| 2026-02-06T20:02:00+00:00 | 650.75 | 651.15 | 650.61 | 651.15 | 75 |
-| 2026-02-06T20:03:00+00:00 | 651.15 | 651.78 | 650.98 | 651.42 | 87 |
-| 2026-02-06T20:04:00+00:00 | 651.42 | 651.48 | 651.25 | 651.27 | 71 |
+| 2026-02-11T19:59:00+00:00 | 664.74 | 664.97 | 664.74 | 664.97 | 30 |
+| 2026-02-11T20:00:00+00:00 | 664.97 | 665.25 | 664.75 | 664.75 | 38 |
+| 2026-02-11T20:01:00+00:00 | 664.75 | 665.07 | 664.73 | 664.99 | 33 |
+| 2026-02-11T20:02:00+00:00 | 664.99 | 665.26 | 664.91 | 665.05 | 42 |
+| 2026-02-11T20:03:00+00:00 | 665.05 | 665.48 | 664.95 | 664.99 | 51 |
 
 **Last rows**
 
 | datetime | open | high | low | close | volume |
 | --- | --- | --- | --- | --- | --- |
-| 2026-09-01T19:55:00+00:00 | 585.51 | 585.51 | 583.33 | 583.55 | 176 |
-| 2026-09-01T19:56:00+00:00 | 583.55 | 583.78 | 583.06 | 583.18 | 152 |
-| 2026-09-01T19:57:00+00:00 | 583.18 | 584.12 | 583.17 | 583.97 | 141 |
-| 2026-09-01T19:58:00+00:00 | 583.97 | 584.36 | 583.4 | 584.36 | 179 |
-| 2026-09-01T19:59:00+00:00 | 584.36 | 585.16 | 583.25 | 584.43 | 265 |
+| 2026-09-04T19:55:00+00:00 | 616.55 | 616.98 | 616.3 | 616.66 | 121 |
+| 2026-09-04T19:56:00+00:00 | 616.66 | 617.11 | 616.16 | 616.97 | 119 |
+| 2026-09-04T19:57:00+00:00 | 616.97 | 617.06 | 616.35 | 616.79 | 166 |
+| 2026-09-04T19:58:00+00:00 | 616.79 | 616.86 | 616.14 | 616.5 | 194 |
+| 2026-09-04T19:59:00+00:00 | 616.5 | 616.64 | 615.71 | 616.42 | 283 |
 
 ## Schema
 
@@ -154,7 +154,7 @@ print(pf.stats())
 
 ## Download full data
 
-The complete **META** archive on **[getdata.finance](https://getdata.finance/datasets/meta)** includes **11 OHLCV timeframes** (1m · 3m · 5m · 15m · 30m · 1H · 4H · 12H · 1D · 3D · 1W) — **1,109,222** rows at `1m`, plus all other timeframes in the same ZIP.
+The complete **META** archive on **[getdata.finance](https://getdata.finance/datasets/meta)** includes **11 OHLCV timeframes** (1m · 3m · 5m · 15m · 30m · 1H · 4H · 12H · 1D · 3D · 1W) — **1,110,391** rows at `1m`, plus all other timeframes in the same ZIP.
 
 **[-> Get the full META dataset on getdata.finance](https://getdata.finance/datasets/meta)**
 
